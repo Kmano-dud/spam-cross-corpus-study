@@ -28,7 +28,7 @@ resampled t-tests.
 
 -reconstructed_confusion_metrics - the reconstructed confusion matrices
 
-File "Within Corpus Folds Dataset B and "Within Corpus Folds Dataset B" which contain all fold scores for each dataset and feature configuration. It also included the fold scores for the rerun no duplicate experiments for Text and Text+Metadat configs.
+File "Within Corpus Folds Dataset A and "Within Corpus Folds Dataset B" which contain all fold scores for each dataset and feature configuration. It also includes the fold scores for the rerun no duplicate experiments for Text and Text+Metadat configs as well as a separate fold scores for Logistic Regression which StandardScaler was used only in the exploratory check for Dataset A with combined features. 
 
 File "Code" contains =
 
