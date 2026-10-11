@@ -23,7 +23,15 @@ File "Supplementary" contains =
 -cross_corpus_bootstrap_CIs - 95% bootstrap CIs (10,000 resamples) for F1, MCC, RRS and absolute
 % degradation of all 60 cross-corpus experiments.
 
--pairwise_corrected - the pairwise Nadeau-Bengio corrected 146
+-pairwise_corrected - the pairwise Nadeau-Bengio corrected 60
 resampled t-tests.
 
 -reconstructed_confusion_metrics - the reconstructed confusion matrices
+
+File "Within Corpus Folds Dataset B and "Within Corpus Folds Dataset B" which contain all fold scores for each dataset and feature configuration. It also included the fold scores for the rerun no duplicate experiments for Text and Text+Metadat configs.
+
+File "Code" contains =
+
+-cross_corpus_pipeline.py - the cross corpus evaluation pipeline
+-Email_Preprocessing_Pipeline.ipynb - the raw email preprocessing pipeline
+-Within_Corpus_Reorganized.ipynb - the within-corpus evaluation pipeline
