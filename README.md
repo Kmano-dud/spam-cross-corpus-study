@@ -38,3 +38,5 @@ File "Code" contains =
 -cross_corpus_pipeline.ipynb - the cross corpus evaluation pipeline
 -Email_Preprocessing_Pipeline.ipynb - the raw email preprocessing pipeline
 -Within_Corpus_Pipeline.ipynb - the within-corpus evaluation pipeline
+
+*the prediction-saving option of the released pipeline (SAVE_PREDICTIONS) in cross-corpus was not used to produce the reported results.
