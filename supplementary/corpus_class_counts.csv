@@ -1,0 +1,6 @@
+file,corpus,role,used_in_experiment,rows,spam_1,ham_0,spam_share,ham_share,sha256
+dataset_a_cross_train_27000_ids.pkl,A,source training subset,"A->B, A->C",27000,14094,12906,0.522,0.478,3bb9137339c4e2e7f810f95013a0176514eccce2f53d0bd0bd783e0aeadf44fe
+dataset_b_cross_train_27000_ids.pkl,B,source training subset,"B->A, B->C",27000,14251,12749,0.5278,0.4722,b96a83ebc9b5778a47551ae0b5287be196f0db4328d92e4c96683f19325d5a4a
+dataset_a_target_9956_ids.pkl,A,target sample,B->A,9956,5197,4759,0.522,0.478,47f22481dbc20cf4c9af0d608a2da29edb189caa6861afc714e0fcc93c45ac1c
+dataset_b_target_9956_ids.pkl,B,target sample,A->B,9956,5255,4701,0.5278,0.4722,4fb8bf48c106e0b41e8b1d52d73e933119fdae10b6ef3972f564a6dcdfbd8126
+datasetC_9956_ids.pkl,C,target sample,"A->C, B->C",9956,6000,3956,0.6027,0.3973,a4183f1ab8bc1292206363cc14e627fd1b2b5f13e72f60cbd41a54249b991329

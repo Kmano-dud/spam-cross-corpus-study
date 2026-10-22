@@ -16,11 +16,11 @@ dataset_b_cross_train_27000_ids.pkl
 - Stratified 27,000-record subset derived from Dataset B's original 30,000-record sample.
 - Used as the source corpus during cross-corpus training.
 
-dataset_a_to_b_target_9956_ids.pkl
+dataset_a_target_9956_ids.pkl
 - Stratified 9,956-record subset of Dataset A.
 - Used as the target corpus in the Dataset B → Dataset A cross-corpus experiment.
 
-dataset_b_to_a_target_9956_ids.pkl
+dataset_b_target_9956_ids.pkl
 - Stratified 9,956-record subset of Dataset B.
 - Used as the target corpus in the Dataset A → Dataset B cross-corpus experiment.
 
@@ -73,6 +73,9 @@ They additionally include:
 - Fold scores from the duplicate-removal sensitivity analysis for the Text and Text+Metadata configurations.
 
 - Fold scores from the exploratory Logistic Regression sensitivity analysis on Dataset A using the Text+Metadata configuration with standardized metadata features (StandardScaler).
+
+corpus_class_counts.csv
+- Corpus class counts of the cross corpus validation datasets including the target samples.
 
 ================================================================================
 CROSS CORPUS UNROUNDED RESULTS

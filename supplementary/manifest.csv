@@ -1,6 +1,6 @@
 filename,sha256,records,spam_count,ham_count,dataset,dataset_type,usage,transfer_direction
 dataset_a_cross_train_27000_ids.pkl,3bb9137339c4e2e7f810f95013a0176514eccce2f53d0bd0bd783e0aeadf44fe,27000,14094,12906,Dataset A,Traditional,Training,A→B; A→C
-dataset_a_to_b_target_9956_ids.pkl,47f22481dbc20cf4c9af0d608a2da29edb189caa6861afc714e0fcc93c45ac1c,9956,5197,4759,Dataset A,Traditional,Testing,B→A
+dataset_a_target_9956_ids.pkl,47f22481dbc20cf4c9af0d608a2da29edb189caa6861afc714e0fcc93c45ac1c,9956,5197,4759,Dataset A,Traditional,Testing,B→A
 dataset_b_cross_train_27000_ids.pkl,b96a83ebc9b5778a47551ae0b5287be196f0db4328d92e4c96683f19325d5a4a,27000,14251,12749,Dataset B,Traditional,Training,B→A; B→C
-dataset_b_to_a_target_9956_ids.pkl,4fb8bf48c106e0b41e8b1d52d73e933119fdae10b6ef3972f564a6dcdfbd8126,9956,5255,4701,Dataset B,Traditional,Testing,A→B
+dataset_b_target_9956_ids.pkl,4fb8bf48c106e0b41e8b1d52d73e933119fdae10b6ef3972f564a6dcdfbd8126,9956,5255,4701,Dataset B,Traditional,Testing,A→B
 datasetC_9956_ids.pkl,a4183f1ab8bc1292206363cc14e627fd1b2b5f13e72f60cbd41a54249b991329,9956,6000,3956,Dataset C,LLM-generated,Testing,A→C; B→C
